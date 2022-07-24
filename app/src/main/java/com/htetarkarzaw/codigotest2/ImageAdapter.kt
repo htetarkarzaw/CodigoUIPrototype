@@ -33,6 +33,7 @@ class ImageAdapter :
 
         }
     }
+
     inner class LanguageViewHolder(private val binding: ViewHolderImageBinding) :
         RecyclerView.ViewHolder(binding.root) {
 

@@ -35,7 +35,6 @@ class RateAdapter :
 
     inner class RateViewHolder(private val binding: ViewHolderRateBinding) :
         RecyclerView.ViewHolder(binding.root) {
-
         fun bind(item: String?) {
 
         }
