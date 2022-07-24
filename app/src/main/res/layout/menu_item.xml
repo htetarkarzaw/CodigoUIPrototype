@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="48dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_currency"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amenities"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/img1"
+            app:layout_constraintStart_toStartOf="@+id/img1"
+            app:layout_constraintTop_toBottomOf="@+id/img1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+
+            android:id="@+id/img2"
+            android:layout_width="48dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_currency"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facilities"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/img2"
+            app:layout_constraintStart_toStartOf="@+id/img2"
+            app:layout_constraintTop_toBottomOf="@+id/img2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="48dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_currency"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F And B"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/img3"
+            app:layout_constraintStart_toStartOf="@+id/img3"
+            app:layout_constraintTop_toBottomOf="@+id/img3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="48dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_currency"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kid/Family"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/img4"
+            app:layout_constraintStart_toStartOf="@+id/img4"
+            app:layout_constraintTop_toBottomOf="@+id/img4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="48dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_currency"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wellness"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/img5"
+            app:layout_constraintStart_toStartOf="@+id/img5"
+            app:layout_constraintTop_toBottomOf="@+id/img5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
